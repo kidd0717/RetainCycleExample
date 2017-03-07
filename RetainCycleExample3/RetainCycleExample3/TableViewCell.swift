@@ -13,7 +13,7 @@ public protocol TableViewCellDelegate : NSObjectProtocol {
 class TableViewCell: UITableViewCell {
     @IBOutlet weak var pic: UIImageView!
     @IBOutlet weak var title: UILabel!
-    open var delegate: TableViewCellDelegate?
+    var delegate: TableViewCellDelegate?
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
