@@ -14,8 +14,6 @@
 		76D54C2A1E6E783000FC82F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D54C281E6E783000FC82F7 /* LaunchScreen.storyboard */; };
 		76D54C321E6E7B2E00FC82F7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D54C311E6E7B2E00FC82F7 /* TableViewController.swift */; };
 		76D54C341E6E7C2200FC82F7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D54C331E6E7C2200FC82F7 /* TableViewCell.swift */; };
-		76D54C371E6E890400FC82F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D54C361E6E890400FC82F7 /* MapKit.framework */; };
-		76D54C391E6E890700FC82F7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D54C381E6E890700FC82F7 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +26,6 @@
 		76D54C2B1E6E783000FC82F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76D54C311E6E7B2E00FC82F7 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		76D54C331E6E7C2200FC82F7 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		76D54C361E6E890400FC82F7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		76D54C381E6E890700FC82F7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,8 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D54C391E6E890700FC82F7 /* CoreLocation.framework in Frameworks */,
-				76D54C371E6E890400FC82F7 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +44,6 @@
 			children = (
 				76D54C1E1E6E783000FC82F7 /* RetainCycleExample2 */,
 				76D54C1D1E6E783000FC82F7 /* Products */,
-				76D54C351E6E890300FC82F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,15 +68,6 @@
 				76D54C2B1E6E783000FC82F7 /* Info.plist */,
 			);
 			path = RetainCycleExample2;
-			sourceTree = "<group>";
-		};
-		76D54C351E6E890300FC82F7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				76D54C381E6E890700FC82F7 /* CoreLocation.framework */,
-				76D54C361E6E890400FC82F7 /* MapKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:RetainCycleExample2.xcodeproj">
+      location = "group:RetainCycleExample3/RetainCycleExample3.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:RetainCycleExample.xcodeproj">
+      location = "group:RetainCycleExample2/RetainCycleExample2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RetainCycleExample/RetainCycleExample.xcodeproj">
    </FileRef>
 </Workspace>
