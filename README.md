@@ -52,13 +52,13 @@ lazy var configureCell: (UITableViewCell)->() = { [unowned self] cell in
 ## RetainCycleExample3
 ### Issue
 ```Swift
-open var delegate: TableViewCellDelegate?
+var delegate: TableViewCellDelegate?
 ```
 ### Fix
 ```Swift
-open var delegate: TableViewCellDelegate?
+var delegate: TableViewCellDelegate?
 ```
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 ```Swift
-weak open var delegate: TableViewCellDelegate?
+weak var delegate: TableViewCellDelegate?
 ```
