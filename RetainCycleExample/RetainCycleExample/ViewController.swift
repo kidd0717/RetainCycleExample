@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ObjA {
-    var b: ObjB?
+class BankAccount {
+    weak var owner: Owner?
     init() {
         
     }
 }
-class ObjB {
-    var a: ObjA?
+class Owner {
+    var account: BankAccount?
     init() {
         
     }
@@ -25,11 +25,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let a = ObjA()
-        let b = ObjB()
-        a.b = b
-        b.a = a
-        
+        let bankAccount = BankAccount()
+        let owner = Owner()
+        bankAccount.owner = owner
+        owner.account = bankAccount
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -37,7 +36,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

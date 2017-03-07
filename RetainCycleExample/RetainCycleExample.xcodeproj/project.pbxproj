@@ -14,16 +14,6 @@
 		76D54C0C1E6E73E900FC82F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D54C0A1E6E73E900FC82F7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		76D54C5C1E6EAE1300FC82F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 76D54C581E6EAE1300FC82F7 /* RetainCycleExample2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 76D54C1C1E6E783000FC82F7;
-			remoteInfo = RetainCycleExample2;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		76D54BFE1E6E73E900FC82F7 /* RetainCycleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetainCycleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D54C011E6E73E900FC82F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +22,6 @@
 		76D54C081E6E73E900FC82F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76D54C0B1E6E73E900FC82F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76D54C0D1E6E73E900FC82F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76D54C581E6EAE1300FC82F7 /* RetainCycleExample2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RetainCycleExample2.xcodeproj; path = ../RetainCycleExample2/RetainCycleExample2.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +38,6 @@
 		76D54BF51E6E73E900FC82F7 = {
 			isa = PBXGroup;
 			children = (
-				76D54C581E6EAE1300FC82F7 /* RetainCycleExample2.xcodeproj */,
 				76D54C001E6E73E900FC82F7 /* RetainCycleExample */,
 				76D54BFF1E6E73E900FC82F7 /* Products */,
 			);
@@ -74,14 +62,6 @@
 				76D54C0D1E6E73E900FC82F7 /* Info.plist */,
 			);
 			path = RetainCycleExample;
-			sourceTree = "<group>";
-		};
-		76D54C591E6EAE1300FC82F7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				76D54C5D1E6EAE1300FC82F7 /* RetainCycleExample2.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,28 +112,12 @@
 			mainGroup = 76D54BF51E6E73E900FC82F7;
 			productRefGroup = 76D54BFF1E6E73E900FC82F7 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 76D54C591E6EAE1300FC82F7 /* Products */;
-					ProjectRef = 76D54C581E6EAE1300FC82F7 /* RetainCycleExample2.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				76D54BFD1E6E73E900FC82F7 /* RetainCycleExample */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		76D54C5D1E6EAE1300FC82F7 /* RetainCycleExample2.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = RetainCycleExample2.app;
-			remoteRef = 76D54C5C1E6EAE1300FC82F7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		76D54BFC1E6E73E900FC82F7 /* Resources */ = {
